@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         Queue<String> urlPriorityQueue = new PriorityQueue<>(
-                List.of("PUT_SOME_CEP_HERE")
+                List.of("PUT_SOME_ZIP_CODE_HERE")
         );
 
         urlPriorityQueue.stream().peek(Main::getPool)
